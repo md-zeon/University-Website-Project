@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo_nub.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Cirtificates & Online Programs for 2023</h1>
+    </section>
+
+    <!-- blog page content  -->
+
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="img/certificate.jpg" alt="">
+                    <h2>Our Cirtificates & Online Programs for 2023</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit non itaque delectus doloremque sapiente at quod, fuga mollitia voluptatum libero, dolorem quasi obcaecati vel, id laborum quis eligendi hic consectetur.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis non illum asperiores sed expedita. Necessitatibus maiores dicta vero ad tempora debitis doloremque, cumque recusandae culpa quidem, ipsam quam, iusto ut.</p>
+                    <br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit sapiente ipsum quae dicta fugiat ea corporis nesciunt autem odit iusto sit numquam molestiae, vel eos, pariatur blanditiis nihil veniam tenetur.</p>
+                    <br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat similique amet ipsa eveniet quibusdam quidem atque est consectetur deleniti, nemo, voluptate adipisci ea ex, iure itaque praesentium delectus vitae aspernatur.</p>
+
+                    <div class="comment-box">
+                        <h3>Leave a Comment</h3>
+                        <form action="" class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                        </form>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </div>
+
+
+                </div>
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Data Science</span>
+                        <span>35</span>
+                    </div>
+                    <div>
+                        <span>Machine Learning</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>Computer Science</span>
+                        <span>42</span>
+                    </div>
+                    <div>
+                        <span>Robotics</span>
+                        <span>32</span>
+                    </div>
+                    <div>
+                        <span>Data Structure</span>
+                        <span>42</span>
+                    </div>
+                    <div>
+                        <span>EEE</span>
+                        <span>36</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+  
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet adipisicing elit. Adipisci, veritatis excepturi? Cum, quaerat! Rem quaerat <br>cumque. fuga accusantium quos ad adipisci maiores. Molestiae.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook fa"></i>
+            <i class="fa-brands fa-twitter fa"></i>
+            <i class="fa-brands fa-instagram fa"></i>
+            <i class="fa-brands fa-linkedin fa"></i>
+        </div>
+        <p class="copy">&copy;All Rights Reserved By MD Zeon Rahaman</p>
+    </section>
+
+    <!-- Javascript for toogle menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right ="0";   
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";   
+    }
+</script>
+
+</body>
+</html>
